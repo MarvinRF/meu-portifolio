@@ -1,3 +1,1 @@
-module.exports = {
-  plugins: [require('prettier-plugin-tailwindcss')],
-}
+const config = await import('./prettier.config.js');
